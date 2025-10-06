@@ -9,4 +9,7 @@ if tostring(game.PlaceId) == "14787381917" then
 elseif tostring(game.PlaceId) == "71718624482170" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/wsd/refs/heads/main/book%202.lua"))();
     Library:Notify("book 2 chapter 1 loaded", 5);
+elseif tostring(game.PlaceId) == "14787369036" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/lobby/refs/heads/main/wsd.lua"))
+    Library:Notify("lobby loaded", 5);
 end
