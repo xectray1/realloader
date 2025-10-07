@@ -5,14 +5,20 @@ end;
 getgenv().skripthookv_LOADED = true;
 if tostring(game.PlaceId) == "14787381917" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/skripthookv/refs/heads/main/chapter%201.lua"))();
-    Library:Notify("book 1 chapter 1 loaded")
-elseif tostring(game.PlaceId) == "71718624482170" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/wsd/refs/heads/main/book%202.lua"))();
-    Library:Notify("book 2 chapter 1 loaded", 5);
+    Library:Notify("chapter 1 loaded", 5);
 elseif tostring(game.PlaceId) == "14787369036" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/lobby/refs/heads/main/wsd.lua"))();
     Library:Notify("lobby loaded", 5);
 elseif tostring(game.PlaceId) == "15322497988" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter2/refs/heads/main/wsd.lua"))();
-    Library:Notify("book 1 chapter 2 loaded")
-end
+    Library:Notify("chapter 2 loaded", 5);
+elseif tostring(game.PlaceId) == "16375066410" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter31/refs/heads/main/chapter31.lua"))()
+    Library:Notify("chapter 3 laoded", 5);
+elseif tostring(game.PlaceId) == "16485242214" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter32/refs/heads/main/chatper32.lua"))()
+    Library:Notify("chapter 3 loaded", 5);
+elseif tostring(game.PlaceId) == "71718624482170" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/wsd/refs/heads/main/book%202.lua"))();
+    Library:Notify("book 2 chapter 1 loaded", 5);
+end;
