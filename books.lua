@@ -52,7 +52,7 @@ elseif tostring(game.PlaceId) == "16554037885" then
     end
 elseif tostring(game.PlaceId) == "71718624482170" then
     if isMobile then
-        error("mobile not released")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/mb1c1/refs/heads/main/wsd.lua"))()
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/wsd/refs/heads/main/book%202.lua"))()
         Library:Notify("book 2 chapter 1 loaded", 5)
