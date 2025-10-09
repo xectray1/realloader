@@ -11,7 +11,6 @@ local isMobile = ISONMOBILE()
 if tostring(game.PlaceId) == "14787381917" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/C1mobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("chapter 1 (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/skripthookv/refs/heads/main/chapter%201.lua"))()
         Library:Notify("chapter 1 loaded", 5)
@@ -19,7 +18,6 @@ if tostring(game.PlaceId) == "14787381917" then
 elseif tostring(game.PlaceId) == "14787369036" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/Lmobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("lobby (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/lobby/refs/heads/main/wsd.lua"))()
         Library:Notify("lobby loaded", 5)
@@ -27,7 +25,6 @@ elseif tostring(game.PlaceId) == "14787369036" then
 elseif tostring(game.PlaceId) == "15322497988" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/C2mobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("chapter 2 (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter2/refs/heads/main/wsd.lua"))()
         Library:Notify("chapter 2 loaded", 5)
@@ -35,7 +32,6 @@ elseif tostring(game.PlaceId) == "15322497988" then
 elseif tostring(game.PlaceId) == "16375066410" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/C31mobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("chapter 3.1 (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter31/refs/heads/main/chapter31.lua"))()
         Library:Notify("chapter 3.1 loaded", 5)
@@ -43,7 +39,6 @@ elseif tostring(game.PlaceId) == "16375066410" then
 elseif tostring(game.PlaceId) == "16485242214" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/C32mobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("chapter 3.2 (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter32/refs/heads/main/chatper32.lua"))()
         Library:Notify("chapter 3.2 loaded", 5)
@@ -51,7 +46,6 @@ elseif tostring(game.PlaceId) == "16485242214" then
 elseif tostring(game.PlaceId) == "16554037885" then
     if isMobile then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/C33mobile/refs/heads/main/wsd.lua"))()
-        Library:Notify("chapter 3.3 (mobile) loaded", 5)
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/chapter33/refs/heads/main/wsd.lua"))()
         Library:Notify("chapter 3.3 loaded", 5)
